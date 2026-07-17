@@ -1,0 +1,17 @@
+{
+  "brand": "你的品牌",
+  "headline": "真正的理解，\n從願意停下來開始。",
+  "highlight": "停下來",
+  "reflection": [
+    {"text": "當我們不急著回答，才有機會聽見經驗背後真正的訊息。", "kind": "body"},
+    {"text": "此刻，我忽略了什麼？", "kind": "question"}
+  ],
+  "date": "2026.07.17",
+  "photo": {
+    "scale": 1.05,
+    "positionX": "50%",
+    "positionY": "50%",
+    "transformOrigin": "center center"
+  }
+}
+
