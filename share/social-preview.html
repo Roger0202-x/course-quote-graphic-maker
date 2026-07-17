@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <title>課程圖文製作 Skill</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 1280px; height: 640px; overflow: hidden; }
+    body {
+      position: relative;
+      padding: 64px 72px;
+      color: #f6f1e7;
+      background:
+        radial-gradient(circle at 92% 104%, rgba(217,173,88,.18), transparent 33%),
+        linear-gradient(135deg, rgba(167,210,193,.08), transparent 45%),
+        #07171b;
+      font-family: "PingFang TC", "Noto Sans TC", sans-serif;
+    }
+    body::before {
+      content: "";
+      position: absolute;
+      inset: 24px;
+      border: 1px solid rgba(167,210,193,.18);
+    }
+    .eyebrow { color: #d9ad58; font-size: 18px; letter-spacing: .09em; }
+    h1 {
+      margin: 52px 0 0;
+      width: 670px;
+      font-family: "Songti TC", "Noto Serif TC", serif;
+      font-size: 70px;
+      font-weight: 500;
+      line-height: 1.12;
+    }
+    h1 span { color: #d9ad58; }
+    .lead { margin-top: 28px; width: 650px; color: #d4ddda; font-size: 23px; line-height: 1.55; }
+    .flow { margin-top: 38px; color: #a7d2c1; font-size: 19px; letter-spacing: .03em; }
+    .mock {
+      position: absolute;
+      right: 72px;
+      top: 72px;
+      width: 430px;
+      height: 430px;
+      display: grid;
+      grid-template-columns: 48% 52%;
+      overflow: hidden;
+      border: 1px solid rgba(217,173,88,.52);
+      box-shadow: 0 28px 70px rgba(0,0,0,.25);
+    }
+    .copy { position: relative; padding: 28px 24px; background: #071b1f; }
+    .copy small { color: #d9ad58; font-size: 11px; }
+    .copy h2 { margin: 48px 0 0; font-family: "Songti TC", serif; font-size: 29px; line-height: 1.35; font-weight: 500; }
+    .copy h2 span { color: #d9ad58; }
+    .copy p { margin-top: 25px; padding-left: 12px; border-left: 2px solid #d9ad58; color: #dbe4e0; font-family: "Songti TC", serif; font-size: 13px; line-height: 1.6; }
+    .copy time { position: absolute; left: 24px; bottom: 23px; color: #9baba7; font-size: 11px; letter-spacing: .13em; }
+    .photo {
+      position: relative;
+      background: linear-gradient(145deg, rgba(246,241,231,.13), rgba(7,23,27,.04)), #78928c;
+    }
+    .photo::before {
+      content: "";
+      position: absolute;
+      right: 46px;
+      top: 92px;
+      width: 92px;
+      height: 92px;
+      border-radius: 50%;
+      background: #d9c4a9;
+      box-shadow: 0 100px 0 46px #263c3f;
+    }
+    .url { position: absolute; left: 72px; bottom: 48px; color: #7f918d; font-size: 15px; }
+  </style>
+</head>
+<body>
+  <div class="eyebrow">FREE CODEX SKILL · OPEN SOURCE</div>
+  <h1>把課程現場<br>變成<span>可分享的觀點</span></h1>
+  <p class="lead">照片與逐字稿交給 Codex，直接完成一張忠於內容、保留人物真實性的高解析精選圖文。</p>
+  <div class="flow">逐字稿提煉　→　照片選擇　→　固定排版　→　實際驗收</div>
+  <div class="mock">
+    <div class="copy">
+      <small>你的品牌</small>
+      <h2>真正的理解，<br>從願意<span>停下來</span>開始。</h2>
+      <p>當我們不急著回答，<br>才有機會聽見真正的訊息。</p>
+      <time>2026.07.17</time>
+    </div>
+    <div class="photo"></div>
+  </div>
+  <div class="url">github.com/Roger0202-x/course-quote-graphic-maker</div>
+</body>
+</html>
+
