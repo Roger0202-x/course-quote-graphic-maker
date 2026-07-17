@@ -1,0 +1,4 @@
+interface:
+  display_name: "課程圖文製作"
+  short_description: "將課程照片與逐字稿提煉成高質感精選圖文"
+  default_prompt: "使用 $course-quote-graphic-maker，根據我提供的課程照片、逐字稿、日期與品牌名稱，直接製作一張精選圖文。"
